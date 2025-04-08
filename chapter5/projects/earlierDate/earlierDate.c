@@ -17,7 +17,7 @@ int main(void) {
         firstYear == secondYear && firstMonth == secondMonth && firstDay > secondDay
     ) firstIsLarger = 1;
 
-    if (firstIsLarger = 0)
+    if (firstIsLarger == 0)
         printf("%d/%d/%d is earlier than %d/%d/%d",
                 secondMonth,
                 secondDay,
